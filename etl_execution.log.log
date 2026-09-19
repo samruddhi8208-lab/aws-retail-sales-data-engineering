@@ -1,0 +1,6 @@
+2026-09-19 15:28:07,966 - INFO - ETL process started
+2026-09-19 15:28:07,981 - INFO - Original data shape: (10, 9)
+2026-09-19 15:28:07,984 - INFO - Cleaned data shape: (10, 9)
+2026-09-19 15:28:07,986 - INFO - Cleaned sales file created successfully
+2026-09-19 15:28:07,992 - INFO - Curated sales summary created successfully
+2026-09-19 15:28:07,992 - INFO - ETL process completed successfully

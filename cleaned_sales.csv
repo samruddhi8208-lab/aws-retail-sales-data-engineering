@@ -1,0 +1,11 @@
+order_id,customer_id,product_id,product_name,category,quantity,price,order_date,status
+O001,C001,P001,Laptop,Electronics,1,55000,2026-01-10,COMPLETED
+O002,C002,P002,Mobile,Electronics,2,25000,2026-01-11,COMPLETED
+O003,C003,P003,Keyboard,Accessories,3,1500,2026-01-12,CANCELLED
+O004,C004,P004,Mouse,Accessories,2,800,2026-01-13,COMPLETED
+O005,C005,P005,Monitor,Electronics,1,12000,2026-01-14,COMPLETED
+O006,C006,P006,Headphones,Accessories,2,2000,2026-01-15,COMPLETED
+O007,C007,P007,Printer,Electronics,1,15000,2026-01-16,COMPLETED
+O008,C008,P008,Webcam,Electronics,1,3500,2026-01-17,CANCELLED
+O009,C009,P009,USB Cable,Accessories,5,500,2026-01-18,COMPLETED
+O010,C010,P010,Tablet,Electronics,1,22000,2026-01-19,COMPLETED
