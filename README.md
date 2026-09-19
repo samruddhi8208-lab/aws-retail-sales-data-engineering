@@ -1,5 +1,5 @@
 # aws-retail-sales-data-engineering
-AWS Data Engineering project using S3, Glue, Lambda, RDS, EMR and Redshift
+AWS Data Engineering project using Amazon S3, AWS Lambda, AWS IAM, AWS Glue Database, Amazon CloudWatch and Python.
 ## Project Overview
 
 This project demonstrates an end-to-end retail sales data engineering pipeline using AWS and Python.
