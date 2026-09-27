@@ -1,28 +1,12 @@
-name: ETL Pipeline
+- name: Set up Python
+  uses: actions/setup-python@v5
+  with:
+    python-version: '3.11'
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+- name: Install dependencies
+  run: |
+    python -m pip install --upgrade pip
+    pip install pandas
 
-jobs:
-  run-etl:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Run ETL process
-        run: |
-          python etl_process.py
-
-      - name: Show ETL log
-        run: |
-          cat etl_execution.log
+- name: Run ETL process
+  run: python etl_process.py
