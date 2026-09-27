@@ -28,4 +28,4 @@ jobs:
         run: python etl_process.py
 
       - name: Show ETL log
-        run: cat data/output/etl_execution.log
+        run: cat etl_execution.log
