@@ -10,3 +10,6 @@
 
 - name: Run ETL process
   run: python etl_process.py
+
+- name: Show ETL log
+  run: cat data/output/etl_execution.log
