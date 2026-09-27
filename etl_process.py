@@ -3,14 +3,13 @@ import os
 import logging
 
 # Input file
-input_file = "../data/sales.csv"
+input_file = "sales.csv"
 
 # Output folder
-output_folder = "../data/output"
-os.makedirs(output_folder, exist_ok=True)
+output_folder = "."
 
 # Log file
-log_file = "../data/output/etl_execution.log"
+log_file = "etl_execution.log"
 
 logging.basicConfig(
     filename=log_file,
@@ -39,7 +38,7 @@ df = df.dropna(how="all")
 logging.info(f"Cleaned data shape: {df.shape}")
 
 # Save cleaned data
-output_file = "../data/output/cleaned_sales.csv"
+output_file = "cleaned_sales.csv"
 df.to_csv(output_file, index=False)
 
 print("\nETL processing completed successfully!")
@@ -60,7 +59,7 @@ curated_summary = (
     .sum()
 )
 
-curated_file = "../data/output/curated_sales_summary.csv"
+curated_file = "curated_sales_summary.csv"
 
 curated_summary.to_csv(
     curated_file,
